@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="14D105g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="M4Y-Lb-cyx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="TodayWidget" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXi-fz-4aJ">
+                                <rect key="frame" x="22" y="9" width="50" height="36"/>
+                                <state key="normal" title="Button" image="images.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="policecall:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="3pl-EZ-hxZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeO-0r-Xe0">
+                                <rect key="frame" x="40" y="45" width="50" height="36"/>
+                                <state key="normal" title="Button" image="images.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="police911:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="yIt-Tk-lnG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ere-yZ-qcI">
+                                <rect key="frame" x="118" y="0.0" width="45" height="45"/>
+                                <state key="normal" title="Button" image="ambulance.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ambulancecall:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="1aj-u1-xV8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7J6-UZ-u5i">
+                                <rect key="frame" x="106" y="38" width="45" height="45"/>
+                                <state key="normal" title="Button" image="ambulance.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="police911:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="3T0-wg-Bv8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgD-Kd-Gtm">
+                                <rect key="frame" x="206" y="5" width="50" height="40"/>
+                                <state key="normal" title="Button" image="fire_truck-512.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="firecall:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="72y-9c-Tbk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezg-jU-Kgu">
+                                <rect key="frame" x="168" y="43" width="50" height="40"/>
+                                <state key="normal" title="Button" image="fire_truck-512.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="police911:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="f9a-GX-HWS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4w2-zE-6FX">
+                                <rect key="frame" x="206" y="72" width="50" height="35"/>
+                                <state key="normal" image="images.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="carabiniericall:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="47m-oM-oKs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RbL-La-bXT">
+                                <rect key="frame" x="120" y="72" width="40" height="35"/>
+                                <state key="normal" image="icon175x175.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="childrencall:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="XJF-9n-yUg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="113" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZF-9s-Zmi">
+                                <rect key="frame" x="26" y="43" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="118" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPb-wx-rgV">
+                                <rect key="frame" x="119" y="43" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="115" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azm-0N-Rt1">
+                                <rect key="frame" x="210" y="43" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="112" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="12Z-M1-Oh8">
+                                <rect key="frame" x="210" y="104" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="911" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kle-hr-YEx">
+                                <rect key="frame" x="107" y="86" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1522" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifj-p4-mda">
+                                <rect key="frame" x="26" y="104" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7ak-W2-moS">
+                                <rect key="frame" x="40" y="210" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anG-h5-b7i">
+                                <rect key="frame" x="30" y="67" width="33" height="40"/>
+                                <state key="normal" image="1197125520883881936kumar35885_Female_Symbol.svg.med.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="womancall:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="RrV-St-Hc4"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="114" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lDh-S2-AuD">
+                                <rect key="frame" x="119" y="104" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20U-RU-gTt">
+                                <rect key="frame" x="10" y="38" width="214" height="69"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iey-7a-cAd">
+                                <rect key="frame" x="120" y="139" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="160"/>
+                    <connections>
+                        <outlet property="ambulance" destination="ere-yZ-qcI" id="Sxf-ot-JCG"/>
+                        <outlet property="ambulance911" destination="7J6-UZ-u5i" id="5lb-p4-Toi"/>
+                        <outlet property="ambulanceLabel" destination="aPb-wx-rgV" id="HtS-n6-QzV"/>
+                        <outlet property="bimbi" destination="RbL-La-bXT" id="oQj-0T-Y3O"/>
+                        <outlet property="bimbiLabel" destination="lDh-S2-AuD" id="kgl-IM-X2p"/>
+                        <outlet property="carabinieri" destination="4w2-zE-6FX" id="50f-TW-6Z0"/>
+                        <outlet property="carabinieriLabel" destination="12Z-M1-Oh8" id="0AM-8v-7je"/>
+                        <outlet property="checkLabel" destination="Iey-7a-cAd" id="wbH-zO-qla"/>
+                        <outlet property="donne" destination="anG-h5-b7i" id="zA6-uP-Yjb"/>
+                        <outlet property="donneLabel" destination="ifj-p4-mda" id="Hc4-ha-OcN"/>
+                        <outlet property="fire911" destination="ezg-jU-Kgu" id="6Br-rf-nRK"/>
+                        <outlet property="firetruck" destination="zgD-Kd-Gtm" id="4rL-h6-bXj"/>
+                        <outlet property="firetruckLabel" destination="azm-0N-Rt1" id="k0C-es-LTZ"/>
+                        <outlet property="label911" destination="Kle-hr-YEx" id="Lf9-SL-dPe"/>
+                        <outlet property="loadingLabel" destination="20U-RU-gTt" id="keV-P1-8cg"/>
+                        <outlet property="police" destination="xXi-fz-4aJ" id="CGL-c3-UPy"/>
+                        <outlet property="police911" destination="FeO-0r-Xe0" id="qOy-ld-rsM"/>
+                        <outlet property="policeLabel" destination="CZF-9s-Zmi" id="8z7-sd-slg"/>
+                        <outlet property="webView" destination="7ak-W2-moS" id="she-6Y-iUR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="520" y="280"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1197125520883881936kumar35885_Female_Symbol.svg.med.png" width="198" height="298"/>
+        <image name="ambulance.png" width="512" height="512"/>
+        <image name="fire_truck-512.png" width="492" height="348"/>
+        <image name="icon175x175.png" width="61" height="67"/>
+        <image name="images.png" width="224" height="161"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

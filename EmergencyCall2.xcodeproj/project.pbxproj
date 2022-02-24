@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		135EF30D1AAE553A00A78221 /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135EF30C1AAE553A00A78221 /* Widget.swift */; };
+		13656FBC1AAE32710005F5A3 /* ambulance.png in Resources */ = {isa = PBXBuildFile; fileRef = 13656FBB1AAE32710005F5A3 /* ambulance.png */; };
+		13656FBE1AAE3F9B0005F5A3 /* 1197125520883881936kumar35885_Female_Symbol.svg.med.png in Resources */ = {isa = PBXBuildFile; fileRef = 13656FBD1AAE3F9B0005F5A3 /* 1197125520883881936kumar35885_Female_Symbol.svg.med.png */; };
+		13656FC01AAE3FD10005F5A3 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 13656FBF1AAE3FD10005F5A3 /* images.png */; };
+		13656FC21AAE40090005F5A3 /* icon175x175.png in Resources */ = {isa = PBXBuildFile; fileRef = 13656FC11AAE40090005F5A3 /* icon175x175.png */; };
+		13656FC41AAE40240005F5A3 /* 1412505612779.png in Resources */ = {isa = PBXBuildFile; fileRef = 13656FC31AAE40240005F5A3 /* 1412505612779.png */; };
+		13656FC61AAE403A0005F5A3 /* AirplaneCruise_Ship4.png in Resources */ = {isa = PBXBuildFile; fileRef = 13656FC51AAE403A0005F5A3 /* AirplaneCruise_Ship4.png */; };
+		13656FC81AAE404F0005F5A3 /* fire_truck-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 13656FC71AAE404F0005F5A3 /* fire_truck-512.png */; };
+		13656FCA1AAE406C0005F5A3 /* thumb_3851_tree_specie_icon_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 13656FC91AAE406C0005F5A3 /* thumb_3851_tree_specie_icon_small.png */; };
+		13656FD31AAE407B0005F5A3 /* 1197125520883881936kumar35885_Female_Symbol.svg.med.png in Resources */ = {isa = PBXBuildFile; fileRef = 13656FCB1AAE407B0005F5A3 /* 1197125520883881936kumar35885_Female_Symbol.svg.med.png */; };
+		13656FD41AAE407B0005F5A3 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 13656FCC1AAE407B0005F5A3 /* images.png */; };
+		13656FD51AAE407B0005F5A3 /* 1412505612779.png in Resources */ = {isa = PBXBuildFile; fileRef = 13656FCD1AAE407B0005F5A3 /* 1412505612779.png */; };
+		13656FD61AAE407B0005F5A3 /* AirplaneCruise_Ship4.png in Resources */ = {isa = PBXBuildFile; fileRef = 13656FCE1AAE407B0005F5A3 /* AirplaneCruise_Ship4.png */; };
+		13656FD71AAE407B0005F5A3 /* icon175x175.png in Resources */ = {isa = PBXBuildFile; fileRef = 13656FCF1AAE407B0005F5A3 /* icon175x175.png */; };
+		13656FD81AAE407B0005F5A3 /* ambulance.png in Resources */ = {isa = PBXBuildFile; fileRef = 13656FD01AAE407B0005F5A3 /* ambulance.png */; };
+		13656FD91AAE407B0005F5A3 /* fire_truck-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 13656FD11AAE407B0005F5A3 /* fire_truck-512.png */; };
+		13656FDA1AAE407B0005F5A3 /* thumb_3851_tree_specie_icon_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 13656FD21AAE407B0005F5A3 /* thumb_3851_tree_specie_icon_small.png */; };
+		136AC14F1AD80B490047E6AC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136AC14E1AD80B490047E6AC /* CoreLocation.framework */; };
+		13DEB7991AA8DD6600BE7746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DEB7981AA8DD6600BE7746 /* AppDelegate.swift */; };
+		13DEB79B1AA8DD6600BE7746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DEB79A1AA8DD6600BE7746 /* ViewController.swift */; };
+		13DEB79E1AA8DD6600BE7746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13DEB79C1AA8DD6600BE7746 /* Main.storyboard */; };
+		13DEB7A01AA8DD6600BE7746 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13DEB79F1AA8DD6600BE7746 /* Images.xcassets */; };
+		13DEB7AF1AA8DD6600BE7746 /* EmergencyCall2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DEB7AE1AA8DD6600BE7746 /* EmergencyCall2Tests.swift */; };
+		13DEB7BF1AA8DD7B00BE7746 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DEB7BE1AA8DD7B00BE7746 /* NotificationCenter.framework */; };
+		13DEB7C41AA8DD7B00BE7746 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DEB7C31AA8DD7B00BE7746 /* TodayViewController.swift */; };
+		13DEB7C61AA8DD7B00BE7746 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13DEB7C51AA8DD7B00BE7746 /* MainInterface.storyboard */; };
+		13DEB7C91AA8DD7B00BE7746 /* TodayWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 13DEB7BC1AA8DD7B00BE7746 /* TodayWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		13DEB7DF1AA8EAE700BE7746 /* phone_icon_white-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 13DEB7DE1AA8EAE700BE7746 /* phone_icon_white-1.png */; };
+		13DEB7E11AA8EC4100BE7746 /* sfondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 13DEB7E01AA8EC4100BE7746 /* sfondo.png */; };
+		13DEB7E31AA8ED3C00BE7746 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DEB7E21AA8ED3C00BE7746 /* iAd.framework */; };
+		13DEB7E51AA8F1E200BE7746 /* ciao.png in Resources */ = {isa = PBXBuildFile; fileRef = 13DEB7E41AA8F1E200BE7746 /* ciao.png */; };
+		13E4DB531AAA323A00325094 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E4DB521AAA323A00325094 /* Settings.swift */; };
+		13FB416B1AE133CD000D0EE4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FB416A1AE133CD000D0EE4 /* SystemConfiguration.framework */; };
+		13FB416C1AE1472A000D0EE4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FB416A1AE133CD000D0EE4 /* SystemConfiguration.framework */; };
+		13FB416E1AE14BF3000D0EE4 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB416D1AE14BF2000D0EE4 /* Locations.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13DEB7A91AA8DD6600BE7746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13DEB78B1AA8DD6600BE7746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13DEB7921AA8DD6600BE7746;
+			remoteInfo = EmergencyCall2;
+		};
+		13DEB7C71AA8DD7B00BE7746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13DEB78B1AA8DD6600BE7746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13DEB7BB1AA8DD7B00BE7746;
+			remoteInfo = TodayWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		13DEB7CD1AA8DD7B00BE7746 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				13DEB7C91AA8DD7B00BE7746 /* TodayWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		135EF30C1AAE553A00A78221 /* Widget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Widget.swift; path = ../Widget.swift; sourceTree = "<group>"; };
+		13656FBB1AAE32710005F5A3 /* ambulance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ambulance.png; sourceTree = "<group>"; };
+		13656FBD1AAE3F9B0005F5A3 /* 1197125520883881936kumar35885_Female_Symbol.svg.med.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1197125520883881936kumar35885_Female_Symbol.svg.med.png; sourceTree = "<group>"; };
+		13656FBF1AAE3FD10005F5A3 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		13656FC11AAE40090005F5A3 /* icon175x175.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon175x175.png; sourceTree = "<group>"; };
+		13656FC31AAE40240005F5A3 /* 1412505612779.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1412505612779.png; sourceTree = "<group>"; };
+		13656FC51AAE403A0005F5A3 /* AirplaneCruise_Ship4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AirplaneCruise_Ship4.png; sourceTree = "<group>"; };
+		13656FC71AAE404F0005F5A3 /* fire_truck-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fire_truck-512.png"; sourceTree = "<group>"; };
+		13656FC91AAE406C0005F5A3 /* thumb_3851_tree_specie_icon_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb_3851_tree_specie_icon_small.png; sourceTree = "<group>"; };
+		13656FCB1AAE407B0005F5A3 /* 1197125520883881936kumar35885_Female_Symbol.svg.med.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1197125520883881936kumar35885_Female_Symbol.svg.med.png; sourceTree = "<group>"; };
+		13656FCC1AAE407B0005F5A3 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		13656FCD1AAE407B0005F5A3 /* 1412505612779.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1412505612779.png; sourceTree = "<group>"; };
+		13656FCE1AAE407B0005F5A3 /* AirplaneCruise_Ship4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AirplaneCruise_Ship4.png; sourceTree = "<group>"; };
+		13656FCF1AAE407B0005F5A3 /* icon175x175.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon175x175.png; sourceTree = "<group>"; };
+		13656FD01AAE407B0005F5A3 /* ambulance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ambulance.png; sourceTree = "<group>"; };
+		13656FD11AAE407B0005F5A3 /* fire_truck-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fire_truck-512.png"; sourceTree = "<group>"; };
+		13656FD21AAE407B0005F5A3 /* thumb_3851_tree_specie_icon_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb_3851_tree_specie_icon_small.png; sourceTree = "<group>"; };
+		136570521AAE519B0005F5A3 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		136AC14E1AD80B490047E6AC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		136AC1501AD82FB90047E6AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		13DEB7931AA8DD6600BE7746 /* EmergencyCall2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmergencyCall2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13DEB7971AA8DD6600BE7746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13DEB7981AA8DD6600BE7746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13DEB79A1AA8DD6600BE7746 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13DEB79D1AA8DD6600BE7746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13DEB79F1AA8DD6600BE7746 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13DEB7A81AA8DD6600BE7746 /* EmergencyCall2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmergencyCall2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13DEB7AD1AA8DD6600BE7746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13DEB7AE1AA8DD6600BE7746 /* EmergencyCall2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyCall2Tests.swift; sourceTree = "<group>"; };
+		13DEB7BC1AA8DD7B00BE7746 /* TodayWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodayWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		13DEB7BE1AA8DD7B00BE7746 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		13DEB7C21AA8DD7B00BE7746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13DEB7C31AA8DD7B00BE7746 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		13DEB7C51AA8DD7B00BE7746 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		13DEB7CE1AA8DD9800BE7746 /* TodayWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TodayWidget.entitlements; sourceTree = "<group>"; };
+		13DEB7CF1AA8DDA700BE7746 /* EmergencyCall2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = EmergencyCall2.entitlements; sourceTree = "<group>"; };
+		13DEB7DE1AA8EAE700BE7746 /* phone_icon_white-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_icon_white-1.png"; sourceTree = "<group>"; };
+		13DEB7E01AA8EC4100BE7746 /* sfondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sfondo.png; sourceTree = "<group>"; };
+		13DEB7E21AA8ED3C00BE7746 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		13DEB7E41AA8F1E200BE7746 /* ciao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ciao.png; sourceTree = "<group>"; };
+		13E4DB4E1AAA0EA600325094 /* EmergencyCall2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmergencyCall2-Bridging-Header.h"; sourceTree = "<group>"; };
+		13E4DB521AAA323A00325094 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = ../Settings.swift; sourceTree = "<group>"; };
+		13FB416A1AE133CD000D0EE4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		13FB416D1AE14BF2000D0EE4 /* Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Locations.swift; path = ../Locations.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13DEB7901AA8DD6600BE7746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FB416C1AE1472A000D0EE4 /* SystemConfiguration.framework in Frameworks */,
+				136AC14F1AD80B490047E6AC /* CoreLocation.framework in Frameworks */,
+				13DEB7E31AA8ED3C00BE7746 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13DEB7A51AA8DD6600BE7746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13DEB7B91AA8DD7B00BE7746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FB416B1AE133CD000D0EE4 /* SystemConfiguration.framework in Frameworks */,
+				13DEB7BF1AA8DD7B00BE7746 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13DEB78A1AA8DD6600BE7746 = {
+			isa = PBXGroup;
+			children = (
+				13DEB7951AA8DD6600BE7746 /* EmergencyCall2 */,
+				13DEB7AB1AA8DD6600BE7746 /* EmergencyCall2Tests */,
+				13DEB7C01AA8DD7B00BE7746 /* TodayWidget */,
+				13DEB7BD1AA8DD7B00BE7746 /* Frameworks */,
+				13DEB7941AA8DD6600BE7746 /* Products */,
+				13E4DB4E1AAA0EA600325094 /* EmergencyCall2-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		13DEB7941AA8DD6600BE7746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13DEB7931AA8DD6600BE7746 /* EmergencyCall2.app */,
+				13DEB7A81AA8DD6600BE7746 /* EmergencyCall2Tests.xctest */,
+				13DEB7BC1AA8DD7B00BE7746 /* TodayWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13DEB7951AA8DD6600BE7746 /* EmergencyCall2 */ = {
+			isa = PBXGroup;
+			children = (
+				13DEB7CF1AA8DDA700BE7746 /* EmergencyCall2.entitlements */,
+				13DEB7981AA8DD6600BE7746 /* AppDelegate.swift */,
+				13DEB79A1AA8DD6600BE7746 /* ViewController.swift */,
+				13E4DB521AAA323A00325094 /* Settings.swift */,
+				135EF30C1AAE553A00A78221 /* Widget.swift */,
+				13FB416D1AE14BF2000D0EE4 /* Locations.swift */,
+				13DEB79C1AA8DD6600BE7746 /* Main.storyboard */,
+				13DEB79F1AA8DD6600BE7746 /* Images.xcassets */,
+				13DEB7961AA8DD6600BE7746 /* Supporting Files */,
+			);
+			path = EmergencyCall2;
+			sourceTree = "<group>";
+		};
+		13DEB7961AA8DD6600BE7746 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13DEB7971AA8DD6600BE7746 /* Info.plist */,
+				13DEB7E41AA8F1E200BE7746 /* ciao.png */,
+				13656FCB1AAE407B0005F5A3 /* 1197125520883881936kumar35885_Female_Symbol.svg.med.png */,
+				13656FCC1AAE407B0005F5A3 /* images.png */,
+				13656FCD1AAE407B0005F5A3 /* 1412505612779.png */,
+				13656FCE1AAE407B0005F5A3 /* AirplaneCruise_Ship4.png */,
+				13656FCF1AAE407B0005F5A3 /* icon175x175.png */,
+				13656FD01AAE407B0005F5A3 /* ambulance.png */,
+				13656FD11AAE407B0005F5A3 /* fire_truck-512.png */,
+				13656FD21AAE407B0005F5A3 /* thumb_3851_tree_specie_icon_small.png */,
+				13DEB7E01AA8EC4100BE7746 /* sfondo.png */,
+				13DEB7DE1AA8EAE700BE7746 /* phone_icon_white-1.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13DEB7AB1AA8DD6600BE7746 /* EmergencyCall2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				13DEB7AE1AA8DD6600BE7746 /* EmergencyCall2Tests.swift */,
+				13DEB7AC1AA8DD6600BE7746 /* Supporting Files */,
+			);
+			path = EmergencyCall2Tests;
+			sourceTree = "<group>";
+		};
+		13DEB7AC1AA8DD6600BE7746 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13DEB7AD1AA8DD6600BE7746 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13DEB7BD1AA8DD7B00BE7746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13FB416A1AE133CD000D0EE4 /* SystemConfiguration.framework */,
+				136AC14E1AD80B490047E6AC /* CoreLocation.framework */,
+				13DEB7E21AA8ED3C00BE7746 /* iAd.framework */,
+				13DEB7BE1AA8DD7B00BE7746 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13DEB7C01AA8DD7B00BE7746 /* TodayWidget */ = {
+			isa = PBXGroup;
+			children = (
+				13DEB7CE1AA8DD9800BE7746 /* TodayWidget.entitlements */,
+				13DEB7C31AA8DD7B00BE7746 /* TodayViewController.swift */,
+				13DEB7C51AA8DD7B00BE7746 /* MainInterface.storyboard */,
+				13DEB7C11AA8DD7B00BE7746 /* Supporting Files */,
+			);
+			path = TodayWidget;
+			sourceTree = "<group>";
+		};
+		13DEB7C11AA8DD7B00BE7746 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13656FC71AAE404F0005F5A3 /* fire_truck-512.png */,
+				13656FBB1AAE32710005F5A3 /* ambulance.png */,
+				13656FC91AAE406C0005F5A3 /* thumb_3851_tree_specie_icon_small.png */,
+				13656FC31AAE40240005F5A3 /* 1412505612779.png */,
+				13656FC51AAE403A0005F5A3 /* AirplaneCruise_Ship4.png */,
+				13656FBF1AAE3FD10005F5A3 /* images.png */,
+				13656FC11AAE40090005F5A3 /* icon175x175.png */,
+				13656FBD1AAE3F9B0005F5A3 /* 1197125520883881936kumar35885_Female_Symbol.svg.med.png */,
+				13DEB7C21AA8DD7B00BE7746 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13DEB7921AA8DD6600BE7746 /* EmergencyCall2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13DEB7B21AA8DD6600BE7746 /* Build configuration list for PBXNativeTarget "EmergencyCall2" */;
+			buildPhases = (
+				13DEB78F1AA8DD6600BE7746 /* Sources */,
+				13DEB7901AA8DD6600BE7746 /* Frameworks */,
+				13DEB7911AA8DD6600BE7746 /* Resources */,
+				13DEB7CD1AA8DD7B00BE7746 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13DEB7C81AA8DD7B00BE7746 /* PBXTargetDependency */,
+			);
+			name = EmergencyCall2;
+			productName = EmergencyCall2;
+			productReference = 13DEB7931AA8DD6600BE7746 /* EmergencyCall2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13DEB7A71AA8DD6600BE7746 /* EmergencyCall2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13DEB7B51AA8DD6600BE7746 /* Build configuration list for PBXNativeTarget "EmergencyCall2Tests" */;
+			buildPhases = (
+				13DEB7A41AA8DD6600BE7746 /* Sources */,
+				13DEB7A51AA8DD6600BE7746 /* Frameworks */,
+				13DEB7A61AA8DD6600BE7746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13DEB7AA1AA8DD6600BE7746 /* PBXTargetDependency */,
+			);
+			name = EmergencyCall2Tests;
+			productName = EmergencyCall2Tests;
+			productReference = 13DEB7A81AA8DD6600BE7746 /* EmergencyCall2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13DEB7BB1AA8DD7B00BE7746 /* TodayWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13DEB7CA1AA8DD7B00BE7746 /* Build configuration list for PBXNativeTarget "TodayWidget" */;
+			buildPhases = (
+				13DEB7B81AA8DD7B00BE7746 /* Sources */,
+				13DEB7B91AA8DD7B00BE7746 /* Frameworks */,
+				13DEB7BA1AA8DD7B00BE7746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodayWidget;
+			productName = TodayWidget;
+			productReference = 13DEB7BC1AA8DD7B00BE7746 /* TodayWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13DEB78B1AA8DD6600BE7746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Francesco Vezzoli";
+				TargetAttributes = {
+					13DEB7921AA8DD6600BE7746 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 6UF6J739PF;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					13DEB7A71AA8DD6600BE7746 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 13DEB7921AA8DD6600BE7746;
+					};
+					13DEB7BB1AA8DD7B00BE7746 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 6UF6J739PF;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 13DEB78E1AA8DD6600BE7746 /* Build configuration list for PBXProject "EmergencyCall2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = 13DEB78A1AA8DD6600BE7746;
+			productRefGroup = 13DEB7941AA8DD6600BE7746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13DEB7921AA8DD6600BE7746 /* EmergencyCall2 */,
+				13DEB7A71AA8DD6600BE7746 /* EmergencyCall2Tests */,
+				13DEB7BB1AA8DD7B00BE7746 /* TodayWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13DEB7911AA8DD6600BE7746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13656FD81AAE407B0005F5A3 /* ambulance.png in Resources */,
+				13656FDA1AAE407B0005F5A3 /* thumb_3851_tree_specie_icon_small.png in Resources */,
+				13DEB79E1AA8DD6600BE7746 /* Main.storyboard in Resources */,
+				13656FD71AAE407B0005F5A3 /* icon175x175.png in Resources */,
+				13DEB7DF1AA8EAE700BE7746 /* phone_icon_white-1.png in Resources */,
+				13DEB7E11AA8EC4100BE7746 /* sfondo.png in Resources */,
+				13656FD41AAE407B0005F5A3 /* images.png in Resources */,
+				13656FD31AAE407B0005F5A3 /* 1197125520883881936kumar35885_Female_Symbol.svg.med.png in Resources */,
+				13656FD51AAE407B0005F5A3 /* 1412505612779.png in Resources */,
+				13DEB7A01AA8DD6600BE7746 /* Images.xcassets in Resources */,
+				13DEB7E51AA8F1E200BE7746 /* ciao.png in Resources */,
+				13656FD61AAE407B0005F5A3 /* AirplaneCruise_Ship4.png in Resources */,
+				13656FD91AAE407B0005F5A3 /* fire_truck-512.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13DEB7A61AA8DD6600BE7746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13DEB7BA1AA8DD7B00BE7746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13656FC01AAE3FD10005F5A3 /* images.png in Resources */,
+				13DEB7C61AA8DD7B00BE7746 /* MainInterface.storyboard in Resources */,
+				13656FC81AAE404F0005F5A3 /* fire_truck-512.png in Resources */,
+				13656FC21AAE40090005F5A3 /* icon175x175.png in Resources */,
+				13656FBE1AAE3F9B0005F5A3 /* 1197125520883881936kumar35885_Female_Symbol.svg.med.png in Resources */,
+				13656FCA1AAE406C0005F5A3 /* thumb_3851_tree_specie_icon_small.png in Resources */,
+				13656FBC1AAE32710005F5A3 /* ambulance.png in Resources */,
+				13656FC41AAE40240005F5A3 /* 1412505612779.png in Resources */,
+				13656FC61AAE403A0005F5A3 /* AirplaneCruise_Ship4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13DEB78F1AA8DD6600BE7746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E4DB531AAA323A00325094 /* Settings.swift in Sources */,
+				13DEB79B1AA8DD6600BE7746 /* ViewController.swift in Sources */,
+				13DEB7991AA8DD6600BE7746 /* AppDelegate.swift in Sources */,
+				13FB416E1AE14BF3000D0EE4 /* Locations.swift in Sources */,
+				135EF30D1AAE553A00A78221 /* Widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13DEB7A41AA8DD6600BE7746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13DEB7AF1AA8DD6600BE7746 /* EmergencyCall2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13DEB7B81AA8DD7B00BE7746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13DEB7C41AA8DD7B00BE7746 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13DEB7AA1AA8DD6600BE7746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13DEB7921AA8DD6600BE7746 /* EmergencyCall2 */;
+			targetProxy = 13DEB7A91AA8DD6600BE7746 /* PBXContainerItemProxy */;
+		};
+		13DEB7C81AA8DD7B00BE7746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13DEB7BB1AA8DD7B00BE7746 /* TodayWidget */;
+			targetProxy = 13DEB7C71AA8DD7B00BE7746 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13DEB79C1AA8DD6600BE7746 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13DEB79D1AA8DD6600BE7746 /* Base */,
+				136570521AAE519B0005F5A3 /* it */,
+				136AC1501AD82FB90047E6AC /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13DEB7B01AA8DD6600BE7746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13DEB7B11AA8DD6600BE7746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13DEB7B31AA8DD6600BE7746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = EmergencyCall2/EmergencyCall2.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: MATTEO VEZZOLI (JY7TFML8BB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: MATTEO VEZZOLI (JY7TFML8BB)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = EmergencyCall2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8ccb0519-aa15-4ae3-a019-f12d57aeb53e";
+				SWIFT_OBJC_BRIDGING_HEADER = "EmergencyCall2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13DEB7B41AA8DD6600BE7746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = EmergencyCall2/EmergencyCall2.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: MATTEO VEZZOLI (JY7TFML8BB)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = EmergencyCall2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8ccb0519-aa15-4ae3-a019-f12d57aeb53e";
+				SWIFT_OBJC_BRIDGING_HEADER = "EmergencyCall2-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		13DEB7B61AA8DD6600BE7746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EmergencyCall2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmergencyCall2.app/EmergencyCall2";
+			};
+			name = Debug;
+		};
+		13DEB7B71AA8DD6600BE7746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EmergencyCall2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmergencyCall2.app/EmergencyCall2";
+			};
+			name = Release;
+		};
+		13DEB7CB1AA8DD7B00BE7746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = TodayWidget/TodayWidget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: MATTEO VEZZOLI (JY7TFML8BB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: MATTEO VEZZOLI (JY7TFML8BB)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TodayWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "98d823af-8311-4975-ba27-7e27ccc7eb8b";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		13DEB7CC1AA8DD7B00BE7746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = TodayWidget/TodayWidget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: MATTEO VEZZOLI (JY7TFML8BB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: MATTEO VEZZOLI (JY7TFML8BB)";
+				INFOPLIST_FILE = TodayWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "98d823af-8311-4975-ba27-7e27ccc7eb8b";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13DEB78E1AA8DD6600BE7746 /* Build configuration list for PBXProject "EmergencyCall2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13DEB7B01AA8DD6600BE7746 /* Debug */,
+				13DEB7B11AA8DD6600BE7746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13DEB7B21AA8DD6600BE7746 /* Build configuration list for PBXNativeTarget "EmergencyCall2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13DEB7B31AA8DD6600BE7746 /* Debug */,
+				13DEB7B41AA8DD6600BE7746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13DEB7B51AA8DD6600BE7746 /* Build configuration list for PBXNativeTarget "EmergencyCall2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13DEB7B61AA8DD6600BE7746 /* Debug */,
+				13DEB7B71AA8DD6600BE7746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13DEB7CA1AA8DD7B00BE7746 /* Build configuration list for PBXNativeTarget "TodayWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13DEB7CB1AA8DD7B00BE7746 /* Debug */,
+				13DEB7CC1AA8DD7B00BE7746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13DEB78B1AA8DD6600BE7746 /* Project object */;
+}
